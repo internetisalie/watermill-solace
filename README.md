@@ -84,3 +84,7 @@ broker mid-stream and is skipped under `-race`, because Watermill v1.5.3's own
 Same as `containers`: `vMAJOR.MINOR.PATCH` tags cut from `main` with
 `glimmer git tag`; the tag runs `.gitea/workflows/release.yml`, which publishes a
 source-only Gitea release.
+
+## License
+
+MIT; see [LICENSE](LICENSE). The Solace Go API it wraps is Apache-2.0.
